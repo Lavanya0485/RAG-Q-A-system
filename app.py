@@ -205,14 +205,14 @@ def generate_answer(question, relevant_chunks):
     If the answer cannot be found in the context, say:
     "I don't have enough information in the provided documents."
 
-Context:
-{context}
+    Context:
+    {context}
 
-Question:
-{question}
+    Question:
+    {question}
 
-Answer:
-"""
+    Answer:
+    """
     try:
         # Call local LLM
         response = ollama.chat(
