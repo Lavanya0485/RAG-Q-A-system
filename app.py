@@ -163,6 +163,9 @@ if question:
     st.subheader("Step 5: Generated Answer")
     st.write(answer)
 
+cursor.close()
+conn.close()
+
 
 
 
