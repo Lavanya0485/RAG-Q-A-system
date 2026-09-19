@@ -125,7 +125,7 @@ def generate_answer(question, relevant_chunks):
     try:
         # Call local LLM
         response = ollama.chat(
-            model="qwen3.5:4b",
+            model="qwen3.5:4b", ## or llama3.2
             messages=[
                 {
                     "role": "user",

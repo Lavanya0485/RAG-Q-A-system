@@ -37,7 +37,7 @@ Answer
 - PostgreSQL
 - pgvector
 - Ollama
-- Llama 3.2
+- llama 3.2 / qwen3.5:4b
 - nomic-embed-text
 
 ## Features
